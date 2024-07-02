@@ -1,0 +1,152 @@
+/* html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border:hover{
+    border: 3px solid rgb(255, 158, 21);
+    border-radius: 4px;
+}
+
+/* main body  */
+
+body {
+    background-image: url(image10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px 150px;
+    /* width: 500px; */
+}
+
+form {
+    background-image: url(image9.jpg);
+    background-blend-mode: hard-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-left: 100px;
+}
+
+/* Box1 */
+
+.heading{
+    height: 40px;
+    font-weight: 800;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 35px;
+}
+
+/* Box2 */
+
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-box{
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* Box3 */
+
+.class{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Box4 */
+
+.sec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sec-content{
+    display: block;
+}
+
+/* Box5 */
+
+.subject{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.checkbox{
+    height: 1rem;
+    width: 1rem;
+}
+
+.check-cont  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15px;
+}
+
+.sub-name{
+    margin-left: 10px;
+}
+
+/* Box6 */
+
+.state{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.state select{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    margin-left: 70px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Box7 */
+
+.button{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button input{
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.2rem;
+}
