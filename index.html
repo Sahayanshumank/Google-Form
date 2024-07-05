@@ -1,75 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <form>
-        <div class="heading">
-            <div class="hed-content">
-                Registration Form
-            </div>
-        </div>
-        <div class="name">
-            <p>Enter Your Name  </p>
-            <input class="input-box border" type="text" placeholder="Enter your name">
-        </div>
-        <div class="class">
-            <p>Enter your Class </p>
-            <input class="input-box border" type="text" placeholder="Enter your Class">
-        </div>
-        <div class="sec">
-            <p>Choose Your Section</p>
-            <div class="state">
-                <select class="border" name="city" id="city">
-                    <option value="sec[A]">Section [A]</option>
-                    <option value="sec[B]">Section [B]</option>
-                    <option value="sec[C]">Section [C]</option>
-                    <option value="sec[C]">Section [D]</option>
-                </select>
-            </div>
-        </div>
-        <div class="subject">
-            <p>Choose Your Subjects</p>
-            <div class="sub-name">
-                <label class="check-cont" for="101">
-                    <input class="checkbox border" type="checkbox"value="Math" name="Subject" id="101"><p class="sub-name">Math</p>
-                </label>
-                <br>
-                <label class="check-cont" for="102"> 
-                    <input class="checkbox" type="checkbox"value="Physics" name="Subject" id="102"><p class="sub-name">Physics</p>
-                </label>
-                <br>
-                <label class="check-cont" for="103">
-                    <input class="checkbox" type="checkbox"value="Chemistry" name="Subject" id="103"><p class="sub-name">Chemistry</p>
-                </label>
-            </div>
-            <div class="sub-name">
-                <label class="check-cont" for="104">
-                    <input class="checkbox" type="checkbox"value="Computer Science" name="Subject" id="104"><p class="sub-name">Computer Science</p>
-                </label>
-                <br>
-                <label class="check-cont" for="105">
-                    <input class="checkbox" type="checkbox"value="English" name="Subject" id="105"><p class="sub-name">English</p>
-                </label>
-            </div>
-        </div>
+      <div class="heading">
+        <div class="hed-content">Registration Form</div>
+      </div>
+      <div class="name">
+        <p>Enter Your Name</p>
+        <input
+          class="input-box border"
+          type="text"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="class">
+        <p>Enter your Class</p>
+        <input
+          class="input-box border"
+          type="text"
+          placeholder="Enter your Class"
+        />
+      </div>
+      <div class="sec">
+        <p>Choose Your Section</p>
         <div class="state">
-            <p>Choose your State</p>
-            <select class="border" name="city" id="city">
-                <option value="Delih">Delhi</option>
-                <option value="Mumbai">Mumbai</option>
-                <option value="Agra">Agra</option>
-                <option value="Agra">Uttar Pradesh</option>
-            </select>
+          <select class="border" name="city" id="city">
+            <option value="sec[A]">Section [A]</option>
+            <option value="sec[B]">Section [B]</option>
+            <option value="sec[C]">Section [C]</option>
+            <option value="sec[C]">Section [D]</option>
+          </select>
         </div>
-        <div class="button">
-            <input class="border" href="feedback.html" type="button" value="Submit">
+      </div>
+      <div class="subject">
+        <p>Choose Your Subjects</p>
+        <div class="sub-name">
+          <label class="check-cont" for="101">
+            <input
+              class="checkbox border"
+              type="checkbox"
+              value="Math"
+              name="Subject"
+              id="101"
+            />
+            <p class="sub-name">Math</p>
+          </label>
+          <br />
+          <label class="check-cont" for="102">
+            <input
+              class="checkbox"
+              type="checkbox"
+              value="Physics"
+              name="Subject"
+              id="102"
+            />
+            <p class="sub-name">Physics</p>
+          </label>
+          <br />
+          <label class="check-cont" for="103">
+            <input
+              class="checkbox"
+              type="checkbox"
+              value="Chemistry"
+              name="Subject"
+              id="103"
+            />
+            <p class="sub-name">Chemistry</p>
+          </label>
         </div>
+        <div class="sub-name">
+          <label class="check-cont" for="104">
+            <input
+              class="checkbox"
+              type="checkbox"
+              value="Computer Science"
+              name="Subject"
+              id="104"
+            />
+            <p class="sub-name">Computer Science</p>
+          </label>
+          <br />
+          <label class="check-cont" for="105">
+            <input
+              class="checkbox"
+              type="checkbox"
+              value="English"
+              name="Subject"
+              id="105"
+            />
+            <p class="sub-name">English</p>
+          </label>
+        </div>
+      </div>
+      <div class="state">
+        <p>Choose your State</p>
+        <select class="border" name="city" id="city">
+          <option value="Delih">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Agra">Agra</option>
+          <option value="Agra">Uttar Pradesh</option>
+        </select>
+      </div>
+      <div class="button">
+        <input
+          class="border"
+          href="feedback.html"
+          type="button"
+          value="Submit"
+        />
+      </div>
     </form>
-</body>
+  </body>
 </html>
